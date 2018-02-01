@@ -1,0 +1,7 @@
+video {
+  display: block;
+  max-width: 85%;
+}
+ul li, ol li {
+  list-style-type: none;
+}
