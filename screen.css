@@ -89,8 +89,11 @@ figcaption {
   padding-bottom: 0.3055555556em; /* 5.5 / 18 = 0.3055555556 */
   text-align: center;
   text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: #def4f1;
 }
-#navigation a:hover {
+#navigation a:hover, #navigation .current a {
   background-color: #def4f1;
 }
 
