@@ -69,8 +69,11 @@ figcaption {
   text-align: center;
 }
 
-.dc li {
+.dc li, .dcr li {
   list-style-type: circle;
+}
+.dcr li:last-child {
+  list-style-type: none;
 }
 
 #navigation li {
