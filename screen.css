@@ -13,9 +13,10 @@ html {
   font-family: "Roboto Slab", sans-serif, Helvetica, Arial;
 }
 body {
-  padding-top: 0.6111111111em; /* 11 / 18 = 0.6111111111 */
+  padding-top: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   padding-right: 10%;
   padding-left: 10%;
+  padding-bottom: 10%;
 }
 
 h1 {
@@ -28,7 +29,7 @@ h2 {
   font-size: 1.7768888889em; /* 31.984 / 18 = 1.7768888889 */
   font-family: Pacifico, sans-serif, Helvetica, Arial;
   line-height: 1.3756878439em; /* 44 / 31.984 = 1.3756878439 */
-  padding-bottom: 0.343921961em; /* 11 / 31.984 = 0.343921961 */
+  padding-bottom: 0.687843922em; /* 22 / 31.984 = 0.687843922 */
 }
 h3 {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
@@ -48,15 +49,16 @@ p {
 }
 li {
   list-style-type: none;
-  line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+  line-height: 1.8333333333em; /* 33 / 18 = 1.8333333333 */
   padding-bottom: 0.3055555556em; /* 5.5 / 18 = 0.6111111111 */
+}
+li img {
+  padding-top: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+  max-width: 80%;
 }
 video {
   display: block;
   max-width: 100%;
-}
-img {
-  max-width: 80%;
 }
 
 #navigation li {
@@ -68,8 +70,8 @@ img {
   display: block;
   color: black;
   width: 100%;
-  padding-top: 0.6111111111em; /* 11 / 18 = 0.6111111111 */
-  padding-bottom: 0.6111111111em; /* 11 / 18 = 0.6111111111 */
+  padding-top: 0.3055555556em; /* 5.5 / 18 = 0.3055555556 */
+  padding-bottom: 0.3055555556em; /* 5.5 / 18 = 0.3055555556 */
   text-align: center;
   text-decoration: none;
 }
@@ -92,8 +94,14 @@ img {
     display: block;
     max-width: 80%;
   }
-  img {
-    max-width: 75%;
-    align-items: center;
+  .container {
+    display: flex;
   }
+  .left, .right {
+    width: 50%;
+  }
+  .left {
+    padding-right: 5%;
+  }
+
 }
