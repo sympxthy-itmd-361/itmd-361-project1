@@ -60,6 +60,12 @@ video {
   display: block;
   max-width: 100%;
 }
+figcaption {
+  font-size: 0.7501666667em; /* 13.503 / 18 = 0.7501666667 */
+  line-height: 1.6292675702em; /* 22 / 13.503 = 1.6292675702 */
+  padding-top: 0.8146337851em; /* 11 / 13.503 = 0.8146337851 */
+  padding-bottom: 0.8146337851em; /* 11 / 13.503 = 0.8146337851 */
+}
 
 #navigation li {
   float: left;
