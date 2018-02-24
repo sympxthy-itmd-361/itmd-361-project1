@@ -147,7 +147,7 @@ figcaption {
     font-size: 1.333em; /* 23.994 / 18 = 1.333 */
     line-height: 1.375343836em; /* 33 / 23.994 = 1.375343836 */
     padding-bottom: 0.4584479453em; /* 11 / 23.994 = 0.4584479453 */
-    font-family: "Bree Serif";
+    font-family: "Bree Serif", sans-serif, Helvetica, Arial;
   }
   p {
     padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
@@ -165,10 +165,10 @@ figcaption {
   .container {
     display: flex;
   }
-  .left, .right {
+  .flexbox .left, .flexbox .right {
     width: 50%;
   }
-  .left {
+  .flexbox .left {
     padding-right: 5%;
   }
 
