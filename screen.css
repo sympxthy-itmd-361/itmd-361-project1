@@ -36,12 +36,32 @@ h3 {
   font-size: 1.333em; /* 23.994 / 18 = 1.333 */
   line-height: 1.375343836em; /* 33 / 23.994 = 1.375343836 */
   padding-bottom: 0.4584479453em; /* 11 / 23.994 = 0.4584479453 */
-  font-family: "Bree Serif";
+  font-family: "Bree Serif", sans-serif, Helvetica, Arial;
 }
 
 a {
   text-decoration: none;
   color: grey;
+}
+nav ul li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+nav a {
+  display: block;
+  color: black;
+  width: 100%;
+  padding-top: 0.3055555556em; /* 5.5 / 18 = 0.3055555556 */
+  padding-bottom: 0.3055555556em; /* 5.5 / 18 = 0.3055555556 */
+  text-align: center;
+  text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-width: thick;
+  border-bottom-color: #def4f1;
+}
+nav a:hover, nav .current a {
+  background-color: #def4f1;
 }
 p {
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
@@ -76,27 +96,6 @@ figcaption {
   list-style-type: none;
 }
 
-#navigation li {
-  float: left;
-  text-align: center;
-  width: 25%;
-}
-#navigation a {
-  display: block;
-  color: black;
-  width: 100%;
-  padding-top: 0.3055555556em; /* 5.5 / 18 = 0.3055555556 */
-  padding-bottom: 0.3055555556em; /* 5.5 / 18 = 0.3055555556 */
-  text-align: center;
-  text-decoration: none;
-  border-bottom-style: solid;
-  border-bottom-width: thick;
-  border-bottom-color: #def4f1;
-}
-#navigation a:hover, #navigation .current a {
-  background-color: #def4f1;
-}
-
 @media screen and (min-width: 320px) {
   h1 {
     font-size: 1.7768888889em; /* 31.984 / 18 = 1.7768888889 */
@@ -113,7 +112,7 @@ figcaption {
   }
   h3 {
     font-size: 1em; /* 18 / 18 = 1 */
-    font-family: "Bree Serif";
+    font-family: "Bree Serif", sans-serif, Helvetica, Arial;
     line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
     padding-bottom: 0.6111111111em; /* 11 / 18 = 0.6111111111 */
   }
