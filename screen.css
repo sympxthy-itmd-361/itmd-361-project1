@@ -43,6 +43,14 @@ a {
   text-decoration: none;
   color: grey;
 }
+li {
+  list-style-type: none;
+  line-height: 1.8333333333em; /* 33 / 18 = 1.8333333333 */
+  padding-bottom: 0.3055555556em; /* 5.5 / 18 = 0.6111111111 */
+}
+li img {
+  padding-top: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
+}
 nav ul li {
   float: left;
   text-align: center;
@@ -67,14 +75,6 @@ p {
   padding-bottom: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
   line-height: 1.8333333333em; /* 33 / 18 = 1.8333333333 */
   font-family: Bitter;
-}
-li {
-  list-style-type: none;
-  line-height: 1.8333333333em; /* 33 / 18 = 1.8333333333 */
-  padding-bottom: 0.3055555556em; /* 5.5 / 18 = 0.6111111111 */
-}
-li img {
-  padding-top: 1.2222222222em; /* 22 / 18 = 1.2222222222 */
 }
 video {
   display: block;
